@@ -1,0 +1,27 @@
+input,
+select {
+  margin-top: 10px;
+}
+.radio-label {
+  display: inline-block;
+}
+
+p,
+label {
+  font-weight: bold;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: rgba(59, 59, 176, 0.655);
+  margin-top: 10px;
+  margin-left: 165px;
+}
